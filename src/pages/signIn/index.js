@@ -54,6 +54,7 @@ const SignIn = () => {
           required
           onChangeText={(text) => setPassword(text)}
         />
+
         {error && <ErrorMessage>Todos os campos são obrigátorios</ErrorMessage>}
         <Button>
           <ButtonText onPress={handleSign}>Entrar</ButtonText>
